@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi-Calculadora</title>
+
+    <link rel="stylesheet" href="fonts/tipografia.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="superior">
+            <div class="punto cierre" style="background-color: crimson;">
+                x
+            </div>
+            <p class="titulo">Mi-Calculadora</p>
+            <div class="punto copiar" title="copiar" style="background-color: dimgray;">+</div>
+        </div>
+
+        <div class="contenido">
+            <div id="calculadora">
+                <div class="pantalla">
+                    <p></p>
+                </div>
+                <div class="teclas">
+                    <span class="tecla" data-tecla="7">7</span>
+                    <span class="tecla" data-tecla="8">8</span>
+                    <span class="tecla" data-tecla="9">9</span>
+                    <span class="tecla operador" data-tecla="/">÷</span>
+                    
+                    <span class="tecla" data-tecla="4">4</span>
+                    <span class="tecla" data-tecla="5">5</span>
+                    <span class="tecla" data-tecla="6">6</span>
+                    <span class="tecla operador" data-tecla="*">×</span>
+                    
+                    <span class="tecla" data-tecla="1">1</span>
+                    <span class="tecla" data-tecla="2">2</span>
+                    <span class="tecla" data-tecla="3">3</span>
+                    <span class="tecla operador" data-tecla="-">-</span>
+                    
+                    <span class="tecla" data-tecla=".">.</span>
+                    <span class="tecla" data-tecla="0">0</span>
+                    <span class="tecla igual" data-tecla="=">=</span>
+                    <span class="tecla operador suma" data-tecla="+">+</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
